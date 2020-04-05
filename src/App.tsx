@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Helloworld from "./components/Helloworld";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        React Öğreniyoruz.
+        <Helloworld name="World"></Helloworld>
       </header>
     </div>
   );
